@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: aquamarine;
+    width: 100%;
+    height: 190px;
+}
+
+.profile-img {
+    background-color: rgb(88, 88, 88);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+.skills {
+    height: 354px;
+    width: 100%;
+    background-color: rgb(136, 136, 136);
+}
+
+.skills-title {
+    background-color: bisque;
+    width: 4em;
+}
+
+.skills-item {
+    height: 117px;
+    width: 100px;
+    display: inline-block;
+    gap: 10px;
+    background-color: aqua;
+    margin-top: 5px;
+}
+
+.projects {
+    height: 1249px;
+    width: 100%;
+    background-color: rgb(136, 136, 136);
+}
+
+.projects-title {
+    background-color: bisque;
+    width: 5em;
+    float: right;
+
+}
+
+.pro-img {
+    height: 375px;
+    width: 100%;
+    background-color: rgb(201, 81, 81);
+}
+
+.projects-intro {
+    background-color: rgb(136, 136, 136);
+    width: 100%;
+    height: 88px;
+    display: block;
+    word-wrap: break-word;
+}
+
+.scroll-top {
+    width: 35px;
+    height: 53px;
+    background-color: brown;
+    border-radius: 20px;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+.footer {
+    height: 74px;
+    width: 100%;
+    background-color: rgb(127, 121, 121);
+}
