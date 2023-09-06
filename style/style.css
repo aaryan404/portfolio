@@ -149,7 +149,7 @@
 .skills-item img {
     width: 70px;
     height: 70px;
-    margin-left: 12px;
+    margin-left: 15px;
     margin-top: 20px;
 }
 
@@ -294,5 +294,86 @@
     font-family: 'popins', 'sans-serif';
     margin-right: 10px;
     margin-top: 10px;
+
+}
+
+@media (min-width :400px) {
+    .banner {
+
+        height: 380px;
+
+
+    }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        margin-top: -80px;
+    }
+
+    .info-wraper {
+        margin-left: 100px;
+    }
+
+    .skills-title {
+        margin-top: -27px;
+    }
+
+    .skills {
+        width: 25%;
+        border-radius: 20px;
+        margin-left: 60%;
+        margin-top: -200px;
+
+
+    }
+
+    .skills-item {
+        margin-top: 30px;
+    }
+
+    .projects-title {
+        float: left;
+        margin-left: 80px;
+        width: 8em;
+        height: 2em;
+        font-size: 17px;
+        text-align: center;
+        padding-top: .5%;
+    }
+
+    .projects-intro {
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    .pro-img,
+    .pro-img2 {
+
+        height: 400px;
+        width: 35%;
+        margin-left: 5%;
+        border-radius: 20px;
+        background-color: #89B592;
+        display: inline-block;
+        margin-top: -20px;
+
+    }
+
+    .img1 {
+        margin-left: 25%;
+        margin-top: 8%;
+
+    }
+
+    .img2 {
+        margin-left: -50px;
+        margin-top: 20px;
+
+
+    }
+
 
 }
